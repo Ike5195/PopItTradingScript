@@ -1,0 +1,30 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Pop-It Trading Script by Ike#5195", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Scam GUIs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Fake Drop GUI",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/PopItTradingScript/main/FakeDrop'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Dupe Crash GUI",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/PopItTradingScript/main/DupeScript'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Delete Toy GUI",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/PopItTradingScript/main/FakeDrop'))()
+  	end    
+})
