@@ -25,6 +25,6 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Delete Toy GUI",
 	Callback = function()
-      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/PopItTradingScript/main/FakeDrop'))()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/PopItTradingScript/main/DeleteScript'))()
   	end    
 })
